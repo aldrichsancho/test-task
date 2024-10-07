@@ -11,6 +11,11 @@
   </q-page>
 </template>
 
-<script setup>
-import BaseForm from 'components/BaseForm.vue';
+<script>
+import BaseForm from '../components/BaseForm.vue';
+export default {
+  components: {
+    BaseForm,
+  },
+};
 </script>
